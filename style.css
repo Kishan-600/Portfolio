@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Overall Page Background */ 
+
+body {
+    background-color: #ebe0e4; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    height: 55px;
+    width: auto;
+    background-color: #408000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 8px;
+
+}
+.cls{
+
+   height: 30px; 
+   padding: 11px;
+   border: 2px solid #fbf2f2; 
+   border-radius: 12px; 
+   margin-right: 15px;
+   background-color: #09ce09; 
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+a{ 
+    text-decoration: none;
+    color: antiquewhite;
+   
+}
+.cls:hover{
+    background-color: white;
+    zoom: 1.02;
+}
+img{
+    height: 300px;
+    border-radius: 90%;
+   
+}
+#img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#text{
+    text-align: center;
+}
+
+
+
+                                        /* Footer Styling */
+
+
+footer {
+    background-color:  #408000; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer .social-link:hover {
+    color: #FFD700; 
+}
+
+footer .social-link i {
+    margin-right: 8px;
+}
+
+
+
+                                     /* Project Styling */
+
+
+#projects {
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+
+#projects h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #FF69B4; 
+    padding: 10px 0;
+    border-radius: 5px; 
+    display: inline-block; 
+    color: white;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05); 
+}
+
+.project h2 {
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.project-box {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+                                     /* Internship Page Styles */
+
+
+
+#internship {
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+
+#internship h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #FF69B4; 
+    padding: 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+}
+
+/* Shadow Box for Internship Content */
+.internship-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+}
+
+.internship-box:hover {
+    transform: scale(1.05);
+}
+
+.internship-box h2 {
+    color: #333;
+}
+
+.internship-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.internship-box strong {
+    font-weight: bold;
+}
+
+
+
+/*                                      Eduction          */
+
+
+
+#education {
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+
+#education h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #FF69B4;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+}
+
+/* Shadow Box for Education Content */
+.education-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+}
+
+.education-box:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.education-box h2 {
+    color: #666;
+
+}
+a{
+    color: #666;
+}
+li{
+    list-style-type: none;
+}
+
+
+.education-box p, .education-box ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.education-box strong {
+    font-weight: bold;
+}
+
+
+
+                    /*               contact             */
+
+
+
+                    
+#contact {
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+
+#contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #FF69B4; /* Light Pink background for heading */
+    padding: 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+}
+
+/* Shadow Box for Contact Details and Form */
+.contact-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+}
+
+.contact-box:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.contact-box h2 {
+    color: #333;
+}
+
+.contact-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-details .detail {
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-details .detail h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+button.btn {
+    background-color: #FF69B4; /* Light Pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #FF1493;
+}
+
+
+
+/*                                Skills           */
+
+
+
+/* Skills Page Styles */
+#skills {
+    text-align: center;
+    padding: 40px;
+    color: #333;
+    background-color: #F8F8FF; /* Light background */
+}
+
+#skills h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #FF69B4; /* Light Pink background */
+    padding: 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+}
+
+/* Skill Box Styling */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+}
+
+.skill-box:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.skill-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.skill-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-box ul li {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
